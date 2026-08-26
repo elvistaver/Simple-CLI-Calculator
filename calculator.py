@@ -1,9 +1,12 @@
 # CLI Calculator 
 #branching
-def play():
-    print("Calculator📟")
+def calc():
+    print("CALCULATOR📟")
+    print("___________________________________________________________________________________ ")
+    print("✅ Usage:First digit enter, Operation sign[➕ ➖ ✖️  ➗]enter and Second digit enter")
+    print("___________________________________________________________________________________ ")
     print("[➕ ➖ ✖️  ➗]")
-    print()
+    print("🀫🀫🀫🀫🀫🀫🀫🀫🀫🀫🀫🀫🀫🀫")
     a=int(input())
     select=input()
     b=int(input())
@@ -17,4 +20,4 @@ def play():
         print("=",a/b)
     else:
         print("wrong input")
-play()
+calc()
